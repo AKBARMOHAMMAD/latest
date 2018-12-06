@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load staticfiles%}
+    <meta charset="UTF-8">
+    <title>UserBooking</title>
+     <style>
+        body{
+            background-image: url("{% static 'images/Akbar.png' %}");
+        }
+    </style>
+</head>
+<body>
+<h1 align="center">AKBAR'S HOTEL</h1>
+<marquee>
+    <font size="3" face="Algerian">The only purpose of ‘customer service’… is to change feelings.</font>
+</marquee>
+<table align="center" border="2">
+    <tr>
+        <th width="120">
+            <a href="/openHomePage/?type=home">HOME</a>
+        </th>
+         <th width="120">
+            <a href="/openServicesPage/?type=h_services">SERVICES</a>
+        </th>
+         <th width="120">
+            <a href="/openUserLogin/?type=h_user">USER</a>
+        </th>
+         <th width="120">
+            <a href="/openContact/?type=h_contact">CONTACT</a>
+        </th>
+         <th width="120">
+            <a href="/openCancelPage/?type=u_cancel">CANCEL</a>
+        </th>
+         <th width="120">
+            <a href="/admin/" target="_blank">ADMIN</a>
+        </th>
+    </tr>
+</table>
+
+</body>
+</html>
